@@ -1,0 +1,10 @@
+{
+    "name": "2.5_year_neet_exam_preparation",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "concurrently \"cd client && npm start\" \"cd server && npm start\""
+    },
+    "devDependencies": {
+        "concurrently": "^7.6.0"
+    }
+}
